@@ -106,7 +106,7 @@ boolean active = (boolean) profile.getUserMetadata().get("active");
 
 ##### B. APP METADATA
 
-The `appMetadata` map contains fields that are usually added via a Rule, which is read-only for the native platform.
+The `appMetadata` map contains fields that are usually added via a Hook, which is read-only for the native platform.
 
 ##### C. EXTRA INFO
 
